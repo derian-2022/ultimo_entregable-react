@@ -1,0 +1,50 @@
+.header {
+    display: flex;
+}
+
+.header__logo-link {
+    margin-left: 1em;
+}
+
+.header__list {
+    display: flex;
+    gap: 1.5em;
+    margin-left: 2em;
+    font-size: 1em;
+    padding: 10px;
+}
+
+.header__logo-link {
+    color: #F85555;
+    display: block;
+    flex: 1 1;
+    font-size: 2em;
+    font-weight: 700;
+    padding: 14px 20px;
+}
+
+.header__link .icon {
+    background: none;
+    border: none;
+    color: var(--text-gray);
+    font-size: 1.8rem;
+    line-height: 0;
+    padding: 14px;
+    text-align: center;
+    width: 15%;
+}
+
+.bx-user {
+    border: 1px solid rgb(206, 206, 206);
+    font-size: 1.2em;
+}
+
+.bx-archive {
+    border: 1px solid rgb(206, 206, 206);
+    font-size: 1.2em;
+}
+
+.bx-cart-download {
+    border: 1px solid rgb(206, 206, 206);
+    font-size: 1.2em;
+}
